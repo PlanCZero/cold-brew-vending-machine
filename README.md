@@ -5,15 +5,15 @@ cd cold-brew-vending-machine
 npm i
 npm start
 ```
-Open the web browser to http://localhost:3000/ and you will see a simple cold brew vending machine
+Open the web browser to http://localhost:3000/ and you will see a simple cold brew vending machine.
 # Description
-Cold Brew vending machine is a proof-of-concept project that shows how React connects with Redux to manage the state of a component.
+Cold Brew vending machine is a proof-of-concept project that shows how React connects with Redux to manage the state of a component. [React-Redux](https://github.com/reduxjs/react-redux) is the connector library to link both together.
 
 ![Code Structure](https://github.com/PlanCZero/cold-brew-vending-machine/blob/master/public/images/coldbrew.jpg?raw=true)
 
 # User Interface
 
-User interface is base on react-bootstrap
+User interface is base on bootstrap and react-bootstrap.
 ![Vending Machine User Interface](https://github.com/PlanCZero/cold-brew-vending-machine/blob/master/public/images/ui.jpeg?raw=true)
 
 # Dependencies
