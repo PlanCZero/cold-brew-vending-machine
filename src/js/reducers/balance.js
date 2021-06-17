@@ -1,8 +1,4 @@
-import {
-	INCREMENT_BALANCE,
-	INCREMENT_BALANCE_DONE,
-	DECREMENT_BALANCE
-} from '../constants/ActionTypes';
+import *  as actionTypes from "../constants/ActionTypes";
 
 const initialState = {
 	loading: false,
@@ -11,16 +7,16 @@ const initialState = {
 
 const reducer = (state = initialState, action) => {
 	switch (action.type) {
-	case INCREMENT_BALANCE:
+	case actionTypes.ADD_BALANCE:
 		return {...state,
 			loading: true
 		};
-	case INCREMENT_BALANCE_DONE:
+	case actionTypes.ADD_BALANCE_DONE:
 		return {...state,
 			loading: false,
 			value: state.value + action.payload
 		};
-	case DECREMENT_BALANCE:
+	case actionTypes.DEDUCT_BALANCE:
 		return {...state,
 			loading: false,
 			value: state.value - action.payload

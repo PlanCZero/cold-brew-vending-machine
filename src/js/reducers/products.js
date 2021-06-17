@@ -1,10 +1,5 @@
-import {
-	FETCH_PRODUCTS,
-	FETCH_PRODUCTS_DONE,
-	BUY_PRODUCT,
-	BUY_PRODUCT_DONE
-} from '../constants/ActionTypes';
-import keyBy from 'lodash/keyBy';
+import * as actionTypes from "../constants/ActionTypes";
+import keyBy from "lodash/keyBy";
 
 const initialState = {
 	loading: false,
@@ -13,20 +8,20 @@ const initialState = {
 
 const reducer = (state = initialState, action) => {
 	switch (action.type) {
-	case FETCH_PRODUCTS:
+	case actionTypes.GET_PRODUCT:
 		return {...state,
 			loading: true
 		};
-	case FETCH_PRODUCTS_DONE:
+	case actionTypes.GET_PRODUCT_DONE:
 		return {...state,
 			loading: false,
 			data: keyBy(action.payload.data.map(product => (
 				{...product,
 					loading: false
 				}
-			)), 'id')
+			)), "id")
 		};
-	case BUY_PRODUCT:
+	case actionTypes.BUY_ITEM:
 		return {...state,
 			data: {...state.data,
 				[action.payload]: {...state.data[action.payload],
@@ -34,7 +29,7 @@ const reducer = (state = initialState, action) => {
 				}
 			}
 		};
-	case BUY_PRODUCT_DONE:
+	case actionTypes.BUY_ITEM_DONE:
 		return {...state,
 			data: {...state.data,
 				[action.payload]: {...state.data[action.payload],

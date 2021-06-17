@@ -1,16 +1,16 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import PurchasedProductListItem from '../components/PurchasedProductListItem';
-import { connect } from 'react-redux';
-import map from 'lodash/map';
-
+import React from "react";
+import PropTypes from "prop-types";
+import PurchasedProductListItem from "./PurchasedItem";
+import { connect } from "react-redux";
+import map from "lodash/map";
+import { Col } from "react-bootstrap";
 const ProductList = (
 	({ products }) => (
-		<section className="row">
+		<section className="row mt-5">
 			{map(products, (product, index) => (
-				<div key={index} className="col-xs-12 text-center">
+				<Col sm={12} key={index} className="text-center">
 					<PurchasedProductListItem product={product} />
-				</div>
+				</Col>
 			))}
 		</section>
 	)

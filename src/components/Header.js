@@ -7,9 +7,6 @@ export class PageHeader extends Component {
         super(props);
     }
 
-    componentDidMount() {
-        // this.props.fetchData();
-    }
     render() {
         return (
             <section className={"pt-5 pb-5"}>
@@ -24,7 +21,7 @@ export class PageHeader extends Component {
                 <nav className={"navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"}>
                     <div className={"container text-light"}>
                         <h3 className="">
-                            Vending Machine
+                            VM: COLD Brew Coffee
                         </h3>
 
                     </div>

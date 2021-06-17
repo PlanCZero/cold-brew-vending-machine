@@ -1,0 +1,50 @@
+[
+	{
+		"id": 54,
+		"price": 3,
+		"count": 1,
+		"image":  "../images/1.jpg"
+	},
+	{
+		"id": 67,
+		"price": 2,
+		"count": 5,
+		"image":  "../images/2.jpg"
+	},
+	{
+		"id": 73,
+		"price": 4,
+		"count": 3,
+		"image":  "../images/3.jpg"
+	},
+	{
+		"id": 81,
+		"price": 9,
+		"count": 2,
+		"image":  "../images/4.jpg"
+	},
+	{
+		"id": 88,
+		"price": 17,
+		"count": 1,
+		"image":  "../images/5.jpg"
+	},
+	{
+		"id": 90,
+		"price": 28,
+		"count": 2,
+		"image":  "../images/6.jpg"
+	},
+	{
+		"id": 91,
+		"price": 30,
+		"count": 2,
+		"image":  "../images/1.jpg"
+	},
+	{
+		"id": 99,
+		"price": 11,
+		"count": 8,
+		"image":  "../images/2.jpg"
+	}
+]

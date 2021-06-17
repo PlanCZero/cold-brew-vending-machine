@@ -1,20 +1,19 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
+import React from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
 
 const BalancePanel = (
 	({ balance }) => (
-		<section className="panel panel-default">
-			<div className="panel-heading">
+		<section className="alert alert-success">
+			<h4 className="alert-heading text-center text-uppercase">
 				Balance
+			</h4>
+			<hr />
+			<div className="panel-body text-center font-weight-bold">
+				${balance.value}
 			</div>
-			<div className="panel-body text-center">
-				{
-					balance.loading ?
-					'Loading balance...' :
-					`$${balance.value}`
-				}
-			</div>
+
+
 		</section>
 	)
 );

@@ -1,13 +1,11 @@
-import {
-	BUY_PRODUCT_DONE
-} from '../constants/ActionTypes';
+import * as actionTypes from "../constants/ActionTypes";
 
 const initialState = [
 ];
 
 const reducer = (state = initialState, action) => {
 	switch (action.type) {
-	case BUY_PRODUCT_DONE:
+	case actionTypes.BUY_ITEM_DONE:
 		return [...state,
 			action.payload
 		];
