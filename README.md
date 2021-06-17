@@ -5,7 +5,7 @@ cd cold-brew-vending-machine
 npm i
 npm start
 ```
-
+Open the web browser to http://localhost:3000/ and you will see a simple cold brew vending machine
 # Description
 Cold Brew vending machine is a proof-of-concept project that shows how React connects with Redux to manage the state of a component.
 

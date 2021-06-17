@@ -12,8 +12,6 @@ const BalancePanel = (
 			<div className="panel-body text-center font-weight-bold">
 				${balance.value}
 			</div>
-
-
 		</section>
 	)
 );
