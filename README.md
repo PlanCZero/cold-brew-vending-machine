@@ -24,4 +24,4 @@ User interface is base on react-bootstrap
 * [prop-types](https://github.com/facebook/prop-types) - Document the intended types of properties passed to components.
 * [react-bootstrap](https://react-bootstrap.github.io/) - Using Bootstrap's javascript library in React component without unneeded dependencies
 * [react-redux](https://github.com/reduxjs/react-redux) - The library to connect React with Redux
-* [redux-thunk](https://github.com/reduxjs/redux-thunk) Middleware extends the store's abilities, and lets you write async logic that interacts with the store.
+* [redux-thunk](https://github.com/reduxjs/redux-thunk) - Middleware to extends the store's abilities to write async logic that interacts with the store.
