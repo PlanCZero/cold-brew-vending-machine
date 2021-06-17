@@ -13,4 +13,4 @@ Cold Brew vending machine is a proof-of-concept project that shows how React con
 
 # Interface
 
-![Vending Machine User Interface](https://github.com/PlanCZero/cold-brew-vending-machine/blob/md/public/images/ui.jpg?raw=true)
+![Vending Machine User Interface](https://github.com/PlanCZero/cold-brew-vending-machine/blob/md/public/images/ui.jpeg?raw=true)
