@@ -37,7 +37,6 @@
   "devDependencies": {
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
-    "bootstrap-loader": "^3.0.4",
     "lodash": "^4.17.21",
     "prop-types": "^15.7.2",
     "react-bootstrap": "^1.6.1",
